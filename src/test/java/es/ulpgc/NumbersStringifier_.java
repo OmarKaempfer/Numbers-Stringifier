@@ -14,4 +14,9 @@ public class NumbersStringifier_ {
     public void given_1_should_return_one() {
         assertThat(NumberStringifier.stringify(1)).isEqualTo("one");
     }
+
+    @Test
+    public void given_2_should_return_two() {
+        assertThat(NumberStringifier.stringify(2)).isEqualTo("two");
+    }
 }
